@@ -1,0 +1,94 @@
+* {
+margin: 0;
+padding: 0;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+body {
+	background-color: #ffffff;
+	background-size: cover;
+	
+	font-family     : Helvetica,Helvetica Neue,Arial,sans-serif;
+	font-weight     : normal;
+	font-style      : normal;
+	font-variant    : normal;
+	font-stretch    : normal;
+	font-size       : 0.8em;
+	color			: #204f7a;
+
+	padding         : 0px;
+	/*overflow        : hidden; */
+}
+
+/* ----------header for logo-------------- */
+
+
+.header_inner{
+	position: relative;
+	right: 100px;
+	margin-left:666px;
+	height: 130px;
+
+	border: 0px solid green;
+}
+
+/* -----------footer--------------------------- */
+
+footer {
+	width: 100%; 
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	
+	border: 0px solid green;
+}
+
+#footer_inner {
+	width: 100%; 
+  background-color: transparent;
+  color: #000000;
+  font-family: Helvetica,Helvetica Neue,Arial,sans-serif;
+  font-size: 11px;
+  line-height: 13px;
+  position: absolute;
+	
+  padding-top: 8px;
+  
+ 	border: 0px solid red;
+}
+
+
+/* selects in Listen und Pässen */
+.auto_select {width:300px;}
+.auto_select_schmal {width:150px;}
+
+input, select {font-size:1.0em;}
+textarea {font-size:1.2em;}
+
+
+h3 {
+	color: #be0000;
+}
+
+a:link { color:#686767; }
+a:visited { color:#686767; }
+a:active { color:#686767; }
+
+/* Farbwechsel in Listen */
+tr.odd {background-color:#E6E6E6;}
+tr.even {background-color:#FFFFFF;}
+
+tr.fett {font-weight:bold;}
+table {border-color:#204f7a;}
+
+td {padding:2px;}
+
+td.auswertung_kopf {font-size:0.7em;}
+td.auswertung_inhalt {background-color:#cccccc;}
+
+tr.auswertung_kopf {background-color:#cccccc;}
+
+.erfuellung_pos {border-color:#204f7a; font-weight:bold; color:red; font-size:1.4em;}
+.erfuellung_neg {border-color:#204f7a; font-weight:bold; color:green; font-size:1.4em;}
